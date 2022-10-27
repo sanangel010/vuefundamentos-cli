@@ -44,7 +44,7 @@ export default {
             question( value, oldvalue ){
                 
                 this.isValidQuestion = false
-
+               // Solo si se escribe '?' se lanza la ptición http.
                if( !value.includes('?') ) return  
                this.isValidQuestion = true
                
